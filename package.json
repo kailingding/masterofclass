@@ -1,0 +1,37 @@
+{
+  "name": "login_user",
+  "version": "1.0.0",
+  "description": "This is a small project that features login for users. ",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "npm install --prefix client",
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Kailing Ding",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.9.8",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.4.1",
+    "compass": "^0.1.1",
+    "concurrently": "^5.1.0",
+    "express": "^4.17.1",
+    "is-empty": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mdbreact": "^4.25.5",
+    "mongoose": "^5.9.7",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "password-validator": "^5.0.3",
+    "react-bootstrap": "^1.0.0",
+    "react-dropdown": "^1.7.0",
+    "react-select": "^3.1.0",
+    "reactjs-popup": "^1.5.0",
+    "semantic-ui-react": "^0.88.2",
+    "validator": "^11.1.0"
+  }
+}

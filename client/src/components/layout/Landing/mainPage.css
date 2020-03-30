@@ -1,0 +1,756 @@
+html {
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+}
+
+body {
+  font-family: "Open Sans", serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+  overflow-x: hidden;
+}
+
+@font-face {
+  font-family: pingfang-sc_regular;
+  src: url(assets/PingFang_SC_Regular.ttf);
+}
+
+.landing-page {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: rgba(255, 93, 64, 100);
+  background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+}
+
+.landing-page .navi-bar {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 100%;
+  height: 10%;
+  left: 0px;
+  top: 0px;
+}
+
+.landing-page .navi-bar .navi-bar96385142 {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+}
+
+.landing-page .navi-bar .navi-bar96385142 .navi-bar1a4160cf {
+  position: absolute;
+  box-sizing: border-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+}
+
+.landing-page .navi-bar .navi-bar96385142 .logo {
+  display: block;
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  overflow-x: unset;
+  overflow-y: unset;
+  background-color: transparent;
+  width: 14.58333333%;
+  height: 6.574074074%;
+  left: 5%;
+  top: 2.777777778%;
+}
+
+.landing-page .navi-bar .navi-bar96385142 .logo .img4505 {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  background-image: url("assets/moc_logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  cursor: default;
+  box-shadow: none;
+  width: 60px;
+  height: 60px;
+  left: 0px;
+  top: 100%;
+}
+
+.landing-page .navi-bar .navi-bar96385142 .logo .logoname {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  letter-spacing: 0px;
+  color: rgba(255, 252, 252, 1);
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0);
+  font-size: 30px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: pingfang-sc_regular, Arial;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 10.41666667%;
+  height: 5.185185185%;
+  left: 35%;
+  top: 280%;
+}
+
+.landing-page .navi-bar .navi-bar96385142 .product {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  letter-spacing: 0px;
+  color: rgba(255, 255, 255, 1);
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0);
+  font-size: 22px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: pingfang-sc_regular, Arial;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 100%;
+  height: 100%;
+  left: 60%;
+  top: 30%;
+}
+
+.landing-page .navi-bar .navi-bar96385142 .about {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  letter-spacing: 0px;
+  color: rgba(255, 255, 255, 1);
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0);
+  font-size: 22px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: pingfang-sc_regular, Arial;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 100%;
+  height: 100%;
+  left: 70%;
+  top: 30%;
+}
+
+.landing-page .navi-bar .navi-bar96385142 .contact {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  letter-spacing: 0px;
+  color: rgba(255, 255, 255, 1);
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0);
+  font-size: 22px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: pingfang-sc_regular, Arial;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 100%;
+  height: 100%;
+  left: 80%;
+  top: 30%;
+}
+
+.landing-page .navi-bar .navi-bar96385142 .contact .contactQRcode {
+  color: black;
+  text-align: center;
+}
+
+.landing-page .navi-bar .loginreg {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  letter-spacing: 0px;
+  color: rgba(255, 255, 255, 1);
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0);
+  font-size: 22px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: pingfang-sc_regular, Arial;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 100%;
+  height: 100%;
+  left: 90%;
+  top: 30%;
+}
+
+.landing-page .navi-bar .logout {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0);
+  text-align: left;
+  letter-spacing: 0px;
+  color: rgba(255, 255, 255, 1);
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0);
+  font-size: 22px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: pingfang-sc_regular, Arial;
+  box-shadow: none;
+  overflow-x: unset;
+  overflow-y: unset;
+  white-space: pre;
+  width: 40%;
+  height: 50%;
+  left: 91%;
+  top: 29%;
+}
+
+.landing-page .search-v1 {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  background-image: url("assets/search-v2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  cursor: default;
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: none;
+  width: 69px;
+  height: 69px;
+  left: 21.30208333%;
+  top: 33.88888889%;
+}
+
+.landing-page .search-v2 {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  opacity: 1;
+  cursor: default;
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: none;
+  width: 55%;
+  height: auto;
+  left: 27%;
+  top: 29%;
+}
+
+.landing-page .search-v2 .dropDown {
+  position: relative;
+  opacity: 0.9;
+  width: 83%;
+  height: auto;
+  text-align: left;
+}
+
+.landing-page .search-v2 .jinqun {
+  position: relative;
+  left: 85%;
+  top: 50px;
+}
+
+.landing-page .search-v2 .jinqun .jinqunButton {
+  text-align: center;
+}
+
+.landing-page .search-v2 .jinqun .QRpopup {
+  text-align: center;
+}
+
+.landing-page .search-v2 .jinqun .QRpopup .QR-text {
+  font-size: 20px;
+}
+
+.landing-page .search-v2 .jinqun .QRpopup .QRimg {
+  width: 40%;
+  height: auto;
+}
+
+.landing-page .search-v2 .jinqun .QRpopup .qunAssistant {
+  width: 50%;
+  height: 50%;
+}
+
+.landing-page .search-v2 .jinqun .loginInText {
+  opacity: 1;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.landing-page .search-v2 .jinqun .loginInImg {
+  width: 60%;
+  height: 60%;
+}
+
+.landing-page .sketch010 {
+  position: absolute;
+  box-sizing: content-box;
+  -ms-transform-origin: center;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  background-image: url("assets/sketch010.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  cursor: default;
+  background-color: rgba(255, 255, 255, 0);
+  box-shadow: none;
+  width: 67.1875%;
+  height: 59.72222222%;
+  left: 16.30208333%;
+  top: 40.27777778%;
+}
+
+.landing-page .rightsReserved {
+  position: absolute;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  font-family: pingfang-sc_regular, Arial;
+  box-shadow: none;
+  width: 100%;
+  height: 100%;
+  left: 76%;
+  top: 96%;
+}
+
+@media screen and (max-width: 600px) {
+  html {
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  body {
+    font-family: "Open Sans", serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+    overflow: -moz-scrollbars-none;
+    -ms-overflow-style: none;
+    overflow-x: hidden;
+  }
+
+  @font-face {
+    font-family: pingfang-sc_regular;
+    src: url(assets/PingFang_SC_Regular.ttf);
+  }
+
+  .landing-page {
+    display: block;
+    position: absolute;
+    box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: rgba(255, 93, 64, 100);
+    background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+  }
+
+  .landing-page .navi-bar {
+    display: block;
+    position: absolute;
+    box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    overflow-x: unset;
+    overflow-y: unset;
+    background-color: transparent;
+    width: 100%;
+    height: 15%;
+    left: 0px;
+    top: 0px;
+  }
+
+  .landing-page .navi-bar .navi-bar96385142 {
+    display: block;
+    position: absolute;
+    box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    overflow-x: unset;
+    overflow-y: unset;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+  }
+
+  .landing-page .navi-bar .navi-bar96385142 .navi-bar1a4160cf {
+    position: absolute;
+    box-sizing: border-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+  }
+
+  .landing-page .navi-bar .navi-bar96385142 .logo {
+    display: block;
+    position: absolute;
+    box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    overflow-x: unset;
+    overflow-y: unset;
+    background-color: transparent;
+    width: 14.58333333%;
+    height: 6.574074074%;
+    left: 5%;
+    top: 10%;
+  }
+
+  .landing-page .navi-bar .navi-bar96385142 .logo .img4505 {
+    position: absolute;
+    box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    background-image: url("assets/moc_logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    cursor: default;
+    box-shadow: none;
+    width: 30px;
+    height: 30px;
+    left: 0px;
+    top: 100%;
+  }
+
+  .landing-page .navi-bar .navi-bar96385142 .logo .logoname {
+    position: absolute;
+    box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: left;
+    letter-spacing: 0px;
+    color: rgba(255, 252, 252, 1);
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0);
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: pingfang-sc_regular, Arial;
+    box-shadow: none;
+    overflow-x: unset;
+    overflow-y: unset;
+    white-space: pre;
+    width: 5%;
+    height: 2.5%;
+    left: 65%;
+    top: 100%;
+  }
+
+  landing-page .navi-bar .navi-bar96385142 .product {
+    display: none;
+  }
+
+  .landing-page .navi-bar .navi-bar96385142 .about {
+    display: none;
+  }
+
+  .landing-page .navi-bar .navi-bar96385142 .contact {
+    display: none;
+  }
+
+  .landing-page .navi-bar .navi-bar96385142 .contact .contactQRcode {
+    color: black;
+    text-align: center;
+  }
+
+  .landing-page .navi-bar .loginreg {
+    position: absolute;
+    box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: left;
+    letter-spacing: 0px;
+    color: rgba(255, 255, 255, 1);
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0);
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: pingfang-sc_regular, Arial;
+    box-shadow: none;
+    overflow-x: unset;
+    overflow-y: unset;
+    white-space: pre;
+    width: 100%;
+    height: 100%;
+    left: 70%;
+    top: 17%;
+  }
+
+  .landing-page .navi-bar .logout {
+    position: absolute;
+    box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: left;
+    letter-spacing: 0px;
+    color: rgba(255, 255, 255, 1);
+    -webkit-text-stroke: 1px rgba(0, 0, 0, 0);
+    font-size: 22px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: pingfang-sc_regular, Arial;
+    box-shadow: none;
+    overflow-x: unset;
+    overflow-y: unset;
+    white-space: pre;
+    width: 9%;
+    height: auto;
+    left: 85%;
+    top: 17%;
+  }
+
+  .landing-page .search-v1 {
+    display: none;
+  }
+
+  .landing-page .search-v2 {
+    position: absolute;
+    box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    opacity: 1;
+    cursor: default;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: none;
+    width: 85%;
+    height: 15%;
+    left: 7.5%;
+    top: 33.88888889%;
+  }
+
+  .landing-page .search-v2 .dropDown {
+    position: absolute;
+    opacity: 0.9;
+    width: 100%;
+    text-align: left;
+  }
+
+  .landing-page .search-v2 .jinqun {
+    position: absolute;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: none;
+    left: 40%;
+    top: 70%;
+  }
+
+  .landing-page .search-v2 .jinqun .jinqunButton {
+    text-align: center;
+    top: 70px;
+    left: -40%;
+  }
+
+  .landing-page .search-v2 .jinqun .QRpopup {
+    text-align: center;
+  }
+
+  .landing-page .search-v2 .jinqun .QRpopup .QR-text {
+    font-size: 16px;
+  }
+
+  .landing-page .search-v2 .jinqun .QRpopup .QRimg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .landing-page .search-v2 .jinqun .QRpopup .qunAssistant {
+    width: 100%;
+    height: 100%;
+  }
+
+  .landing-page .search-v2 .jinqun .loginInText {
+    opacity: 1;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .landing-page .search-v2 .jinqun .loginInImg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .landing-page .sketch010 {
+    position: absolute;
+    box-sizing: content-box;
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+    background-image: url("assets/sketch010.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    cursor: default;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: none;
+    width: 100%;
+    height: 45%;
+    left: 0%;
+    top: 55%;
+  }
+  .landing-page .rightsReserved {
+    display: none;
+  }
+}
+
+@media screen and (max-height: 665px) {
+  .landing-page .search-v2 .jinqun {
+    position: absolute;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0);
+    box-shadow: none;
+    left: 40%;
+    top: 85%;
+  }
+}
